@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vite --host",
-    "build": "vite build --mode production"
+    "build": "vite build",
+    "preview": "vite preview --port 8080"
   },
   "dependencies": {
     "vue": "^3.2.25"
